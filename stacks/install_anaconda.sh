@@ -5,4 +5,4 @@ rm ./downloads/anaconda.sh
 echo 'export PATH="~/.anaconda/bin:$PATH"' >> ~/.bashrc 
 source ~/.bashrc
 PATH="~/.anaconda/bin:$PATH"
-conda update conda
+conda update conda -y
