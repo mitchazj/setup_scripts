@@ -3,12 +3,12 @@ GREEN='\033[0;32m'
 BLUE='\033[1;34m'
 NC='\033[0m' # No Color
 
-echo -e "\n${BLUE}    __  __ _       _                 _ "
+echo -e "${BLUE}    __  __ _       _                 _ "
 echo -e "   |  \\/  (_)     (_)               | |"
 echo -e "   | \\  / |_ _ __  _ _ __ ___   __ _| |"
-echo -e "   | |\\/| | | '_ \\| | '_ ` _ \\ / _` | |"
+echo -e "   | |\\/| | | '_ \\| | '_ \` _ \\ / _\` | |"
 echo -e "   | |  | | | | | | | | | | | | (_| | |"
-echo -e "   |_|  |_|_|_| |_|_|_| |_| |_|\\__,_|_|${NC}"
+echo -e "   |_|  |_|_|_| |_|_|_| |_| |_|\\__,_|_|${NC}\n"
 
 echo -e "Welcome to your minimal server install! This script assumes that you have already:"
 echo -e "   - Created a non-root user with sudo access"
