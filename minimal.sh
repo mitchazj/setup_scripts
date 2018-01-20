@@ -3,19 +3,20 @@ GREEN='\033[0;32m'
 BLUE='\033[1;34m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}    __  __ _       _                 _ "
-echo -e "   |  \\/  (_)     (_)               | |"
-echo -e "   | \\  / |_ _ __  _ _ __ ___   __ _| |"
-echo -e "   | |\\/| | | '_ \\| | '_ \` _ \\ / _\` | |"
-echo -e "   | |  | | | | | | | | | | | | (_| | |"
-echo -e "   |_|  |_|_|_| |_|_|_| |_| |_|\\__,_|_|${NC}\n"
+echo -e "${BLUE}  __  __ _       _                 _ "
+echo -e " |  \\/  (_)     (_)               | |"
+echo -e " | \\  / |_ _ __  _ _ __ ___   __ _| |"
+echo -e " | |\\/| | | '_ \\| | '_ \` _ \\ / _\` | |"
+echo -e " | |  | | | | | | | | | | | | (_| | |"
+echo -e " |_|  |_|_|_| |_|_|_| |_| |_|\\__,_|_|${NC}\n"
 
-echo -e "Welcome to your minimal server install! This script assumes that you have already:"
+echo -e "Welcome to your minimal server install! Let's get started :)\n"
+echo -e "This script assumes that you have:"
 echo -e "   - Created a non-root user with sudo access"
 echo -e "   - Enabled automatic security updates"
 echo -e "   - Enabled firewall with rules for ssh, http, and https"
-echo -e "   - Disabled password authentication and enabled your default SSH key\n"
-echo -e "${GREEN}If this server was provisioned using your Vagrant default script, these requirements should already be satisfied.${NC}"
+echo -e "   - Disabled password authentication & enabled your default SSH keys\n"
+echo -e "${GREEN}If this server was provisioned using your Vagrant default script, these requirements should already be satisfied <3${NC}"
 echo -e "${GREEN}Continuing will install Nginx, Anaconda, .Net Core, and Docker.${NC}\n"
 
 read -e -p "${BLUE}Continue${NC} (y/n)? " -n 1 -r
