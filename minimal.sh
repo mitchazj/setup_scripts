@@ -35,5 +35,5 @@ bash ./languages/install_dotnet.sh
 echo -e "${GREEN}Installing Docker...${NC}"
 bash ./apps/install_docker.sh
 
-echo "==="
-echo "${GREEN}All done!${NC}"
+echo "\n==================================================="
+echo -e "${GREEN}Minimal Install Completed <3${NC}"
