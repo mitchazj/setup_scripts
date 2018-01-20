@@ -19,7 +19,7 @@ echo -e "   - Disabled password authentication & enabled your default SSH keys\n
 echo -e "${GREEN}If this server was provisioned using your Vagrant default script, these requirements should already be satisfied <3${NC}"
 echo -e "${GREEN}Continuing will install Nginx, Anaconda, .Net Core, and Docker.${NC}\n"
 
-read -e -p "${BLUE}Continue${NC} (y/n)? " -n 1 -r
+read -p $'\e[31mContinue\e[0m (y/n)? ' -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
